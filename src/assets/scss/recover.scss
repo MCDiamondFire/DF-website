@@ -1,0 +1,41 @@
+#recover {
+  background-color: rgba(16, 16, 16, 0.75);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+#center {
+  text-align: center;
+}
+
+.big {
+  font-size: 20px;
+}
+
+#recover input[type='text'], #recover input[type='password'] {
+  transition: 0.1s border ease-out;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  -webkit-appearance: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: white;
+  outline: none;
+  font-size: 18px;
+}
+
+#recover input[type='text']:focus, #recover input[type='password']:focus {
+  transition: 0.1s border ease-out;
+  border: 2px solid rgb(130, 130, 255);
+}
+
+#recover button {
+  font-size: 17px;
+}
